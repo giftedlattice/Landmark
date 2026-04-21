@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<KinematicModel MODEL="landmark" VERSION="3.2">
+	<Parameters>
+		<Parameter NAME="landmark_1_landmark_11_x" VALUE="0" PRIOR="0" HIDDEN="true"/>
+		<Parameter NAME="landmark_1_landmark_11_y" VALUE="0" PRIOR="0" HIDDEN="true"/>
+		<Parameter NAME="landmark_1_landmark_11_z" VALUE="0" PRIOR="0" HIDDEN="true"/>
+		<Parameter NAME="landmark_1_landmark_12_x" VALUE="-6.2172489379008766e-15" PRIOR="-6.2172489379008766e-15" HIDDEN="true"/>
+		<Parameter NAME="landmark_1_landmark_12_y" VALUE="-8.8817841970012523e-16" PRIOR="-8.8817841970012523e-16" HIDDEN="true"/>
+		<Parameter NAME="landmark_1_landmark_12_z" VALUE="-62.626369476318359" PRIOR="-62.626369476318359" HIDDEN="true"/>
+		<Parameter NAME="landmark_1_landmark_13_x" VALUE="-1.5987211554602254e-14" PRIOR="-1.5987211554602254e-14" HIDDEN="true"/>
+		<Parameter NAME="landmark_1_landmark_13_y" VALUE="0.3536936342716217" PRIOR="0.3536936342716217" HIDDEN="true"/>
+		<Parameter NAME="landmark_1_landmark_13_z" VALUE="-138.83641052246094" PRIOR="-138.83641052246094" HIDDEN="true"/>
+	</Parameters>
+	<Skeleton RGB="93 93 93">
+		<Segment NAME="landmark_1" OPACITY="255" BOUNDS="-6.26263714 -6.26263714 -62.6263695 6.26263714 6.26263714 0" MASS="0" MASS-CENTRE="0 0 0" INERTIA="0 0 0" RGB="255 164 0" HIDDEN="false" DRAW-END-RATIO="0" DRAW-HEIGHT="0" DRAW-TWIST="0" DRAW-WIDTH="0" DRAW-STYLE="box" DRAW-SHADING="shaded-smooth">
+			<JointFree NAME="World_landmark_1" PRE-ORIENTATION="0 0 0" PRE-POSITION="0 0 0" INVERSE-POST-ORIENTATION="0 0 0" INVERSE-POST-POSITION="0 0 0" MEAN="0 0 0 0 0 0" COVARIANCE="2.464900016784668 0 0 0 0 0 0 2.464900016784668 0 0 0 0 0 0 246.49000549316406 0 0 0 0 0 0 1000000 0 0 0 0 0 0 1000000 0 0 0 0 0 0 1000000" T="* * * * * *" SIGNS="+ + + + + +" RANGE-CENTRING-STATE="0 0 0 0 0 0" RANGE-MATRIX="29.60881233215332 0 0 0 0 0 0 29.60881233215332 0 0 0 0 0 0 29.60881233215332 0 0 0 0 0 0 100000000 0 0 0 0 0 0 100000000 0 0 0 0 0 0 100000000">
+				<JointTemplate MEAN="0 0 0 0 0 0" COVARIANCE="2.464900016784668 0 0 0 0 0 0 2.464900016784668 0 0 0 0 0 0 246.49000549316406 0 0 0 0 0 0 1000000 0 0 0 0 0 0 1000000 0 0 0 0 0 0 1000000" TPOSE-MEAN="0 0 0 0 0 0" TPOSE-COVARIANCE="0.10000000149011612 0 0 0 0 0 0 0.10000000149011612 0 0 0 0 0 0 0.10000000149011612 0 0 0 0 0 0 0.10000000149011612 0 0 0 0 0 0 0.10000000149011612 0 0 0 0 0 0 0.10000000149011612" PRE-ORIENTATION="0 0 0" PRE-POSITION="0 0 0" INVERSE-POST-ORIENTATION="0 0 0" INVERSE-POST-POSITION="0 0 0"/>
+			</JointFree>
+		</Segment>
+	</Skeleton>
+	<MarkerSet>
+		<Markers>
+			<Marker NAME="landmark_11" RADIUS="12.5" RGB="85 255 255" STATUS="required" VIEW-ANGLE="0"/>
+			<Marker NAME="landmark_12" RADIUS="12.5" RGB="255 255 0" STATUS="required" VIEW-ANGLE="0"/>
+			<Marker NAME="landmark_13" RADIUS="12.5" RGB="170 255 127" STATUS="required" VIEW-ANGLE="0"/>
+		</Markers>
+		<Sticks>
+			<Stick MARKER1="landmark_11" MARKER2="landmark_12" RGB1="255 255 0"/>
+			<Stick MARKER1="landmark_11" MARKER2="landmark_13" RGB1="170 255 127"/>
+			<Stick MARKER1="landmark_12" MARKER2="landmark_13" RGB1="170 255 127"/>
+		</Sticks>
+	</MarkerSet>
+	<TargetSet>
+		<Targets>
+			<TargetLocalPointToWorldPoint COVARIANCE="1 0 0 0 1 0 0 0 1" FILL-GAPS="false" GAUSSIAN="true" HIDDEN="false" MARKER="landmark_11" OPACITY="255" POSITION="'landmark_1_landmark_11_x' 'landmark_1_landmark_11_y' 'landmark_1_landmark_11_z'" RGB="93 93 93" SEGMENT="landmark_1" WEIGHT="1" DRAW-STYLE="None">
+				<TargetLocalPointToWorldPointTemplate COVARIANCE="1 0 0 0 1 0 0 0 1"/>
+			</TargetLocalPointToWorldPoint>
+			<TargetLocalPointToWorldPoint COVARIANCE="1 0 0 0 1 0 0 0 1" FILL-GAPS="false" GAUSSIAN="true" HIDDEN="false" MARKER="landmark_12" OPACITY="255" POSITION="'landmark_1_landmark_12_x' 'landmark_1_landmark_12_y' 'landmark_1_landmark_12_z'" RGB="93 93 93" SEGMENT="landmark_1" WEIGHT="1" DRAW-STYLE="None">
+				<TargetLocalPointToWorldPointTemplate COVARIANCE="1 0 0 0 1 0 0 0 1"/>
+			</TargetLocalPointToWorldPoint>
+			<TargetLocalPointToWorldPoint COVARIANCE="1 0 0 0 1 0 0 0 1" FILL-GAPS="false" GAUSSIAN="true" HIDDEN="false" MARKER="landmark_13" OPACITY="255" POSITION="'landmark_1_landmark_13_x' 'landmark_1_landmark_13_y' 'landmark_1_landmark_13_z'" RGB="93 93 93" SEGMENT="landmark_1" WEIGHT="1" DRAW-STYLE="None">
+				<TargetLocalPointToWorldPointTemplate COVARIANCE="1 0 0 0 1 0 0 0 1"/>
+			</TargetLocalPointToWorldPoint>
+		</Targets>
+	</TargetSet>
+</KinematicModel>
+
