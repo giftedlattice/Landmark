@@ -1,0 +1,83 @@
+{
+  "plane_view_last_used": "xy",
+  "objects": {
+    "left wall": {
+      "points": [
+        "maze_enter_right",
+        "maze_y-join_right",
+        "maze_exit_right"
+      ],
+      "coordinates": {
+        "maze_enter_right": [
+          -1435.337524,
+          -131.914154,
+          13.17312
+        ],
+        "maze_y-join_right": [
+          -1417.838257,
+          -1906.45813,
+          43.369423
+        ],
+        "maze_exit_right": [
+          -2219.966553,
+          -3222.713623,
+          56.590767
+        ]
+      }
+    },
+    "right wall": {
+      "points": [
+        "maze_enter_left",
+        "maze_y-join_left",
+        "maze_exit_left"
+      ],
+      "coordinates": {
+        "maze_enter_left": [
+          -364.485504,
+          -141.853745,
+          7.637672
+        ],
+        "maze_y-join_left": [
+          -394.537018,
+          -1921.178223,
+          41.305801
+        ],
+        "maze_exit_left": [
+          388.24176,
+          -3223.02002,
+          62.469006
+        ]
+      }
+    },
+    "start line": {
+      "points": [
+        "maze_enter_far-right",
+        "maze_enter_far-left"
+      ],
+      "coordinates": {
+        "maze_enter_far-right": [
+          -3909.468262,
+          -89.520508,
+          1.979319
+        ],
+        "maze_enter_far-left": [
+          1791.241089,
+          -171.725372,
+          13.862225
+        ]
+      }
+    },
+    "Take Off Perch": {
+      "points": [
+        "maze_take_off"
+      ],
+      "coordinates": {
+        "maze_take_off": [
+          -1011.937256,
+          1562.070923,
+          -19.368828
+        ]
+      }
+    }
+  }
+}
